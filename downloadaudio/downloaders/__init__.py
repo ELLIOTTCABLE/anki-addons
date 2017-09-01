@@ -24,6 +24,7 @@ from .collins_italian import CollinsItalianDownloader
 from .collins_spanish import CollinsSpanishDownloader
 from .den_danske_ordbog import DenDanskeOrdbogDownloader
 from .duden import DudenDownloader
+from .forvo import ForvoDownloader
 from .google_tts import GooglettsDownloader
 from .howjsay import HowJSayDownloader
 from .islex import IslexDownloader
@@ -54,6 +55,7 @@ downloaders = [
     CollinsGermanDownloader(),
     CollinsItalianDownloader(),
     CollinsSpanishDownloader(),
+    ForvoDownloader(),
     BeolingusDownloader(),
     GooglettsDownloader(),
 ]
